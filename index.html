@@ -1,3 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CALCONIC_ Calculator</title>
+    <meta name="description" content="Custom calculator, built using CALCONIC_">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,700|Cormorant+Garamond:400,700|Cormorant+Upright|Cuprum:400,700|Dosis:400,700|Halant:400,700|Kalam:400,700|Laila:400,700|Lekton:400,700|Nunito:400,700|Open+Sans:400,700|Raleway:400,700|Roboto+Slab:400,700|Roboto:400,700|Ubuntu:400,700" rel="stylesheet">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html, body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100%;
+      }
+
+      body {
+        display: flex;
+        padding: 30px 0;
+        background-color: #eee !important;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .calconic-calculator {
+        width: 100%;
+        max-width: 350px;
+      }
+
+      .calconic-calculator.with-layouts {
+        width: 100% !important;
+        max-width: 1200px;
+      }
+
+      .calconic-logo-wrapper {
+        left: 30px;
+        bottom: 30px;
+        position: fixed;
+      }
+
+      .calconic-logo {
+        width: 190px;
+      }
+
+      .calconic-logo a {
+        text-decoration: none;
+      }
+
+      .lumi-calconic {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .calconic-logo h3 {
+        color: #999;
+        font-size: 10px;
+        font-weight: 700;
+        font-family: 'lato', sans-serif;
+        text-transform: uppercase;
+        transform: translateY(6px);
+        margin-left: 3px ;
+      }
+
+      .calconic-logo img {
+        max-width: 100%;
+      }
+
+      .additional-links {
+        width: auto;
+      }
+
+      .additional-links a {
+        color: #999;
+        font-size: 13px;
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        font-family: 'lato', sans-serif;
+      }
+
+      @media (max-width: 800px) {
+        body {
+          flex-direction: column;
+          align-items: center;
+          padding: 5px 5px 100px;
+        }
+
+        .calconic-calculator {
+          width: 100%;
+          max-width: 100%;
+          box-shadow: unset;
+        }
+
+        .calconic-logo-wrapper {
+          top: unset;
+          left: unset;
+          margin-top: 50px;
+          position: relative;
+        }
+
+        .additional-links {
+          width: 100%;
+        }
+
+        .additional-links a {
+          width: 100%;
+          margin-bottom: 7px;
+        }
+      }
+    </style>
+
 <div class="calconic-calculator"  data-calculatorid="6145d23a1f01fd002126277d"></div>
 <script>
   (function() { var qs,j,q,s,d=document, gi=d.getElementById,
